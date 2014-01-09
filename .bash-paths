@@ -1,0 +1,24 @@
+# Emacs Cask
+export PATH=$HOME/.cask/bin:$PATH
+
+# HASKELL
+export PATH=~/.cabal/bin:$PATH
+
+# NODE
+export PATH=/usr/local/share/npm/bin:/usr/local/lib/node_modules:$PATH
+
+# VARIOUS EXECUTABLES
+export PATH=~/.bin:~/bin:$PATH
+
+# POSTGRESQL.APP
+export PATH=/Applications/Postgres93.app/Contents/MacOS/bin:$PATH
+
+# TEXLIVE
+export PATH=/usr/texbin:$PATH
+
+# HOMEBREW
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
+
+# GO
+export GOPATH=~/code/go
+export PATH=$PATH:$GOPATH/bin
