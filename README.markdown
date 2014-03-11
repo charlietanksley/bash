@@ -1,5 +1,9 @@
 # Bash
 
+My Bash config.  Managed with GNU Stow.
+
+## Notes
+
 If
 [http://dghubble.com/.bashprofile-.profile-and-.bashrc-conventions.html](http://dghubble.com/.bashprofile-.profile-and-.bashrc-conventions.html)
 is right, it looks like a `.bash_profile` will be read for any login
