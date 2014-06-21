@@ -20,5 +20,5 @@ export PATH=/Applications/Postgres93.app/Contents/MacOS/bin:$PATH
 export PATH=/usr/texbin:$PATH
 
 # GO
-export GOPATH=~/code/go
+export GOPATH=~/code/go:$GOPATH
 export PATH=$PATH:$GOPATH/bin
