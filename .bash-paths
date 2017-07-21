@@ -14,11 +14,15 @@ export PATH=/usr/local/share/npm/bin:/usr/local/lib/node_modules:$PATH
 export PATH=~/.bin:~/bin:$PATH
 
 # POSTGRESQL.APP
-export PATH=/Applications/Postgres93.app/Contents/MacOS/bin:$PATH
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
 
 # TEXLIVE
 export PATH=/usr/texbin:$PATH
 
 # GO
-export GOPATH=~/code/go:$GOPATH
+export GOPATH=/Users/charlietanksley/src/go
 export PATH=$PATH:$GOPATH/bin
+
+# SCALA
+export SCALA_HOME=/usr/local/share/scala
+export PATH=$PATH:$SCALA_HOME/bin

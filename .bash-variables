@@ -1,1 +1,2 @@
 export EMACS_VERSION='24.3'
+export HADOOP_HOME=/usr/local/Cellar/hadoop/2.7.2/libexec
